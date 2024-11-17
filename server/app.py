@@ -8,7 +8,6 @@ def index():
 
 @app.route('/print/<string:text>')
 def print_string(text):
-    print(text)
     return text
 
 @app.route('/count/<int:number>')
